@@ -1,0 +1,11 @@
+# Ignore the .git directory to prevent it from being copied into the image
+.git
+
+# Ignore the output directory
+output/
+
+.DS_Store
+
+# Ignore Jupyter/Colab notebook files
+*.ipynb
+.ipynb_checkpoints/
